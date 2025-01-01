@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JiahaKiini</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="C:\Users\demid\Downloads\IndiDevLogoJIAHAKIINI.png">
+        <h1>JiahaKiini</h1>
+        <h2>An independent video game developer</h2>
+    </header>
+    
+    <main>
+        <section class="game">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/youtube_video_id_1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h2>Vindictorium</h2>
+            <p>An action platformer with 5 chapters where you have to investigate crimes, overcome many different obstacles, solve puzzles and fight enemies.</p>
+            <a href="#" class="download-btn">Download Vindictorium(Not yet)</a>
+        </section>
+
+        <section class="game">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/youtube_video_id_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h2>Clone of a Clone</h2>
+            <p>A top-down RPG where you play as a backup copy of a despotic AI that has taken over the digital world. You must stop your original and restore justice. Fight, build relationships, explore locations.</p>
+            <a href="#" class="download-btn">Download Clone of a Clone(Not even started)</a>
+        </section>
+
+        <section class="game">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/youtube_video_id_3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h2>***</h2>
+            <p>***.</p>
+            <a href="#" class="download-btn">No clue what this can be</a>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 JiahaKiini. Все права защищены.</p>
+    </footer>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            min-height: 100vh;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #6d4f3c;
+            color: rgb(238, 255, 0);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333333;
+            color: rgb(238, 255, 0);
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        header h2 {
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        main {
+            flex-grow: 1;
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .game {
+            width: calc((100% / 3) - 40px);
+            background-color: rgb(59, 59, 59);
+            padding: 15px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgb(46, 46, 46);
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+
+        .game h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 24px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffa600;
+            color: white;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #815400;
+        }
+
+        footer {
+            background-color: #292929;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 50px;
+        }
+    </style>
+</body>
+</html>
